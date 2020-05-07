@@ -1,0 +1,118 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста  #212121*/
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет иконок #AFB1B8 */
+/* цвет фона подложек rgba(47, 48, 58, 0.8) */
+/* цвет текста и иконок в футере rgba(255, 255, 255, 0.6);*/
+/* цвет фона футера #2F303A */
+
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --secondary-bg-color:#F5F4FA;
+    --icon-color-main:#AFB1B8;
+    --icon-color-footer: rgba(255, 255, 255, 0.6);
+    --footer-bg-color:#2F303A;
+    --hero-bg-color: rgba(47, 48, 58, 0.8);
+
+}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+} 
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.logo{
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.logo .accent{
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link{
+    color: var(--secondary-text-color);
+   
+}
+.site-nav .link.active{
+    color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* contacts */
+.contacts .link{
+    color: var(--primary-text-color);
+    
+}
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-color);
+}
+/* hero */
+.hero{
+    background-color: var(--hero-bg-color);
+}
+.hero .hero-title {
+    color: var(--primary-white-color);
+    
+}
+/* features */
+.section .subtitle{
+    color: var(--secondary-text-color);
+    
+}
+/* our work */
+.section .section-title{
+    color: var(--secondary-text-color);
+    
+}
+.section .item{
+    color: var(--primary-white-color);
+    background-color: var(--hero-bg-color);
+}
+
+/* team */
+
+
+
+/* clients */
+
+
+/* footer */
+.footer {
+    color: var(--primary-white-color);
+    background-color:#2F303A ;
+}
+.footer .logo{
+    color: var(--primary-white-color);
+}
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* button */
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    text-decoration: none;
+    
+  
+
+}
